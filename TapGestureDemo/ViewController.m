@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XinViewController.h"
 
 @interface ViewController ()<UIGestureRecognizerDelegate>
 
@@ -26,6 +27,9 @@
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer{
     NSLog(@"gestureDelegate");
+    XinViewController * xinVC = [[XinViewController alloc] initWithNibName:@"XinViewController" bundle:[NSBundle mainBundle]];
+//    [self.navigationController pushViewController:xinVC animated:YES];
+    [self presentViewController:xinVC animated:YES completion:nil];
     return YES;
 }
 

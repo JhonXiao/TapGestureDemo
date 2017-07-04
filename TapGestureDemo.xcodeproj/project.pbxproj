@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8331D701F0B71AE00F6E290 /* XinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8331D6E1F0B71AE00F6E290 /* XinViewController.m */; };
+		D8331D711F0B71AE00F6E290 /* XinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8331D6F1F0B71AE00F6E290 /* XinViewController.xib */; };
 		D85E77781F0381C100854350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D85E77771F0381C100854350 /* main.m */; };
 		D85E777B1F0381C100854350 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D85E777A1F0381C100854350 /* AppDelegate.m */; };
 		D85E777E1F0381C100854350 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85E777D1F0381C100854350 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8331D6D1F0B71AE00F6E290 /* XinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XinViewController.h; sourceTree = "<group>"; };
+		D8331D6E1F0B71AE00F6E290 /* XinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XinViewController.m; sourceTree = "<group>"; };
+		D8331D6F1F0B71AE00F6E290 /* XinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XinViewController.xib; sourceTree = "<group>"; };
 		D85E77731F0381C100854350 /* TapGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85E77771F0381C100854350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D85E77791F0381C100854350 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 				D85E777A1F0381C100854350 /* AppDelegate.m */,
 				D85E777C1F0381C100854350 /* ViewController.h */,
 				D85E777D1F0381C100854350 /* ViewController.m */,
+				D8331D6D1F0B71AE00F6E290 /* XinViewController.h */,
+				D8331D6E1F0B71AE00F6E290 /* XinViewController.m */,
+				D8331D6F1F0B71AE00F6E290 /* XinViewController.xib */,
 				D85E777F1F0381C100854350 /* Main.storyboard */,
 				D85E77821F0381C100854350 /* Assets.xcassets */,
 				D85E77841F0381C100854350 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8331D711F0B71AE00F6E290 /* XinViewController.xib in Resources */,
 				D85E77861F0381C100854350 /* LaunchScreen.storyboard in Resources */,
 				D85E77831F0381C100854350 /* Assets.xcassets in Resources */,
 				D85E77811F0381C100854350 /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8331D701F0B71AE00F6E290 /* XinViewController.m in Sources */,
 				D85E777E1F0381C100854350 /* ViewController.m in Sources */,
 				D85E777B1F0381C100854350 /* AppDelegate.m in Sources */,
 				D85E77781F0381C100854350 /* main.m in Sources */,
@@ -314,6 +324,7 @@
 				D85E778C1F0381C100854350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
